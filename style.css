@@ -1,0 +1,102 @@
+/*------------------------ ОБЩИЕ НАСТРОЙКИ ------------------------- */
+.container{
+   width:90%;
+   margin: 0 auto;
+}
+
+.flex{
+   display: flex;
+}
+
+
+.flex-column-center{
+   flex-direction: column;
+   align-items: center;
+}
+
+.reg{
+  margin-left: 71.4vw;
+}
+
+/*------------------------ Карточки тренеров ------------------------- */
+ .cards{
+      display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+  .card{
+      width: 20%;
+      
+ }
+ .img_container{
+     max-height: 40vh;
+     overflow:hidden;
+}
+ .card img{
+     width: 100%;
+ }
+
+ /*------------------------ FORM ------------------------- */
+
+
+form{
+    width: 30%;
+}
+
+ .input-group{
+    display:flex;
+    flex-direction: column;
+ }
+
+ .ig-radio{
+    flex-direction: row;
+ }
+
+ .input-group>*{
+    margin:5px;
+ }
+
+ .error_form{
+  color:red;
+ }
+
+
+ /*------------------------ СПИСОК ТРЕНЕРОВ ------------------------- */
+ .trener-list{
+   width: 30%;
+
+ }
+
+ .form-edit .container{
+   margin-top: 0;
+ }
+
+ .form-edit{
+   width: 70%;
+ }
+
+
+ .trener-item{
+   align-items:center;
+ }
+ 
+ .trener-item>*{
+   margin: 5px;
+   font-size: 20px;
+ }
+
+ .btn{
+   background: transparent;
+   padding: 3px;
+ }
+
+ .btn-edit{
+   border: 1px solid orange;
+   color: orange;
+
+ }
+
+ .btn-delete{
+   border: 1px solid red;
+   color: red;
+ }
